@@ -25,6 +25,9 @@ public class Main {
         System.out.println("Name : " + animal.getName() + "Age" + animal.getAge());
 
 
+
+
+
     }
 
 }
