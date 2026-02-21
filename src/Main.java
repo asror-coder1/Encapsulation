@@ -23,6 +23,7 @@ public class Main {
                 
                 """);
 
+
         Animal animal = new Animal();
         animal.setName("Ismoil");
         animal.setAge(16);
