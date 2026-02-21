@@ -12,19 +12,23 @@ public class Main {
 
         System.out.println("=================================");
 
-        Student student1 = new Student("Asror" , "Fayzullayev" , 16);
-        System.out.println(student1.getName()+"\n"+student1.getAge()+"\n"+student1.getSurname());
+        Student student1 = new Student("Asror", "Fayzullayev", 16);
+        System.out.println(student1.getName() + "\n" + student1.getAge() + "\n" + student1.getSurname());
 
 
 //        ====================================
 
+        System.out.println("""
+                                \n
+                
+                """);
+
         Animal animal = new Animal();
         animal.setName("Ismoil");
         animal.setAge(16);
+        animal.setGender("Erkak");
 
-        System.out.println("Name : " + animal.getName() + "Age" + animal.getAge());
-
-
+        System.out.println("Name : " + animal.getName() + "\nAge :" + animal.getAge() + "\nGender :" + animal.getGender());
 
 
     }
